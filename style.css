@@ -1,0 +1,87 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 2.8rem;
+}
+h2 {
+  font-size: 3.6rem;
+  padding: 5rem 0rem;
+}
+.clear {
+  clear: both;
+}
+h3 {
+  font-size: 2.8rem;
+}
+a {
+  text-decoration: none;
+  font-size: 2.4rem;
+  color: aliceblue;
+}
+nav ul {
+  float: right;
+  list-style: none;
+}
+button {
+  font-size: 1.8rem;
+}
+nav {
+  background-color: chocolate;
+  padding: 3rem;
+  color: aliceblue;
+}
+nav h1 {
+  float: left;
+}
+nav li {
+  float: left;
+  margin: 0rem 4rem;
+}
+.hero-section {
+  text-align: center;
+  background-image: url(/pexels-lisa-fotios-1995010.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80rem;
+  color: azure;
+}
+.hero-section button {
+  background-color: blue;
+  margin-top: 4rem;
+  color: azure;
+  padding: 1rem 4rem;
+  border: none;
+  cursor: pointer;
+}
+form {
+}
+form input,
+form label,
+form textarea {
+  display: block;
+  font-size: 2.4rem;
+  margin-top: 2rem;
+}
+.last-section {
+  text-align: center;
+}
+form input,
+form textarea {
+  margin: 2rem auto;
+  width: 50%;
+}
+form button {
+  margin: 10rem;
+  color: azure;
+  padding: 1rem 4rem;
+  border: none;
+  background-color: blue;
+  cursor: pointer;
+  width: 50%;
+}
